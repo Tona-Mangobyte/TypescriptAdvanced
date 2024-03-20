@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node 18 + ESM + Strictest",
+  // "extends": "@tsconfig/node18/tsconfig.json",
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "rootDirs": ["tests", "src"],
+    "outDir": "./dist",
+  },
+
+}
